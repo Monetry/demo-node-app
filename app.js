@@ -7,6 +7,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, '0.0.0.0', () => {
-  console.log(`App running on port ${port}`);
+  console.log(`App is running on port ${port}`);
 });
-res.send('Hello from Updated CI/CD Pipeline!');
